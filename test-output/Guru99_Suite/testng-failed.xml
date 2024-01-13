@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegisterPageTest(failed)">
+    <classes>
+      <class name="TestLayer.RegisterPageTest_Guru99">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateRegisterPage"/>
+        </methods>
+      </class> <!-- TestLayer.RegisterPageTest_Guru99 -->
+    </classes>
+  </test> <!-- RegisterPageTest(failed) -->
+</suite> <!-- Failed suite [Guru99_Suite] -->
